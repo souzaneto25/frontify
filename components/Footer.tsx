@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="py-3">
             <div className="container mx-auto px-4">
                 <p className="text-center text-sm sm:text-base">
-                    © 2023 Schedapp. Todos os direitos reservados.
+                    © 2023 {process.env.BUSINESS_NAME}. Todos os direitos reservados.
                 </p>
             </div>
         </footer>
